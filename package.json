@@ -1,0 +1,19 @@
+{
+  "name": "nodemongoclient",
+  "version": "1.0.0",
+  "description": "A mongodb wrapper on native mongo nodejs driver",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Suresh Prajapati",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^3.1.4",
+    "nodewinstonloggerclient": "git+https://github.com/sp-suresh/nodewinstonloggerclient.git"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}
