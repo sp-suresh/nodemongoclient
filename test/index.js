@@ -5,10 +5,9 @@
 
 var {assert, expect} = require('chai')
 const mongoMod = require('../lib/mongoClient')
-global.logger = require('nodewinstonloggerclient')
 const db = new mongoMod.mongoDbClient()
 const CONF = require('./conf')
-var logger = require('nodewinstonloggerclient')
+var logger = require('nodewinstonlogger')
 
 var testData = {
   collName: 'inspections',
