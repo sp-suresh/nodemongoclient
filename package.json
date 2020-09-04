@@ -9,7 +9,7 @@
   "author": "Suresh Prajapati",
   "license": "ISC",
   "dependencies": {
-    "mongodb": "^3.1.4",
+    "mongodb": "^3.1.13",
     "nodewinstonlogger": "git+https://github.com/sp-suresh/nodewinstonlogger.git"
   },
   "devDependencies": {
